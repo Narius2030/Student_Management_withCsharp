@@ -116,11 +116,11 @@ namespace Console1
                 {
                     ListSinhVien[index].Diem.HDC = int.Parse(sHoaDC);
                 }
-                Console.WriteLine("\nUpdated successfully!");
+                Console.WriteLine("\nDa cap nhat thanh cong!");
             }
             else
             {
-                Console.WriteLine($"This student is not exist: {mssv}");
+                Console.WriteLine($"Khong ton tai sinh vien co MSSV {mssv}");
             }
         }
     }

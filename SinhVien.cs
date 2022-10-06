@@ -8,7 +8,7 @@ namespace Console1
     public class SinhVien
     {
         private string name;
-        private int mssv; 	//student ID
+        private int mssv;
         private DIEM diem;
         private double gpa;
 

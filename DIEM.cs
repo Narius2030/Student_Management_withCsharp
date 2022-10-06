@@ -8,9 +8,9 @@ namespace Console1
 {
     public class GRADE
     {
-        private double ToanCC;	//Math's grade
-        private double LyDC;	//Physic's grade
-        private double HoaDC;	//Chemistry's grade
+        private double ToanCC;
+        private double LyDC;
+        private double HoaDC;
 
         public GRADE() {}
         public GRADE(ref double d)
@@ -50,8 +50,6 @@ namespace Console1
                 HoaDC = value;
             }
         }
-
-	//GPA calculating function
         public double TinhDTB()
         {
             double dtb = (HoaDC + LyDC + ToanCC) / 3;
